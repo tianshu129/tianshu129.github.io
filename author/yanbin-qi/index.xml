@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanbin Qi | Tianshu Chen</title>
+    <link>/author/yanbin-qi/</link>
+      <atom:link href="/author/yanbin-qi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanbin Qi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright 2020 - 2020 Tianshu Chen</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Yanbin Qi</title>
+      <link>/author/yanbin-qi/</link>
+    </image>
+    
+    <item>
+      <title>Characteristics and sources of halogenated hydrocarbons in the Yellow River Delta region, northern China</title>
+      <link>/publication/10.1016_j.atmosres.2019.03.039/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/10.1016_j.atmosres.2019.03.039/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observations of C1–C5 alkyl nitrates in the Yellow River Delta, northern China: Effects of biomass burning and oil field emissions</title>
+      <link>/publication/10.1016_j.scitotenv.2018.11.208/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/10.1016_j.scitotenv.2018.11.208/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
