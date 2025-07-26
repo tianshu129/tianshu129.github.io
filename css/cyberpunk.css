@@ -10282,6 +10282,22 @@ body > .section {
     background: rgba(0,0,0,0.24);
   }
 }
+body {
+  font-family: 'Inter', 'Roboto', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
 .ml-0,
 .mx-0 {
   margin-left: 0 !important;
@@ -11677,6 +11693,43 @@ figure.highlight.foldable div.level-left {
   .section {
     padding: 1.5rem 1rem;
   }
+}
+.card,
+.post-block,
+.page-post,
+.widget,
+.footer,
+.navbar,
+.article,
+.page,
+.content {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+body {
+  background: #fff;
+}
+.navbar {
+  border-bottom: 0.8px solid #ccc;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.8px solid #ccc;
+  padding-top: 2rem;
+}
+.navbar-brand .navbar-item {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #111;
+}
+.navbar-item {
+  font-weight: 600;
+  color: #000 !important;
 }
 body {
   counter-reset: card;
