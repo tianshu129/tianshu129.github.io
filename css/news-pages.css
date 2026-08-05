@@ -1,0 +1,248 @@
+body.is-1-column > .section > .container {
+  max-width: 1100px;
+  width: calc(100% - 2rem);
+}
+
+#academic-news,
+#news-detail {
+  --news-blue: #396c90;
+  --news-blue-deep: #214b68;
+  --news-text: #26343d;
+  --news-muted: #65737b;
+  --news-line: #dbe4e9;
+  --news-surface: #f5f8fa;
+  box-sizing: border-box;
+  color: var(--news-text);
+  margin: 0 auto;
+}
+
+#academic-news *,
+#academic-news *::before,
+#academic-news *::after,
+#news-detail *,
+#news-detail *::before,
+#news-detail *::after {
+  box-sizing: border-box;
+}
+
+#academic-news a,
+#news-detail a {
+  color: var(--news-blue);
+}
+
+.news-kicker {
+  color: var(--news-blue);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin: 0 0 0.55rem;
+  text-transform: uppercase;
+}
+
+.news-hero {
+  border-bottom: 1px solid var(--news-line);
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.25rem;
+}
+
+#academic-news .news-page-title {
+  color: var(--news-blue-deep);
+  font-size: 2rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.news-index {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.news-index-item {
+  border-bottom: 1px solid var(--news-line);
+  list-style: none !important;
+  margin: 0;
+}
+
+.news-index-item::before,
+.news-index-item::marker {
+  content: "" !important;
+  display: none !important;
+}
+
+.news-entry-link {
+  color: inherit !important;
+  display: block;
+  padding: 1.3rem 0.25rem 1.25rem;
+  text-decoration: none !important;
+  transition: padding 160ms ease;
+}
+
+.news-entry-link:hover {
+  padding-left: 0.65rem;
+}
+
+.news-card-meta {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.news-date {
+  color: var(--news-blue);
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.news-category {
+  color: var(--news-muted);
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#academic-news .news-entry-title {
+  color: var(--news-text);
+  font-size: 1.12rem;
+  font-weight: 650;
+  line-height: 1.55;
+  margin: 0 0 0.55rem;
+}
+
+.news-entry-link:hover .news-entry-title {
+  color: var(--news-blue) !important;
+}
+
+.news-entry-summary {
+  color: #59676f;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.news-more {
+  color: var(--news-blue);
+  font-size: 0.84rem;
+  font-weight: 650;
+  display: inline-block;
+  padding-top: 0.55rem;
+}
+
+#news-detail {
+  max-width: 880px;
+}
+
+.news-back {
+  display: inline-block;
+  font-size: 0.86rem;
+  font-weight: 650;
+  margin-bottom: 1.4rem;
+  text-decoration: none;
+}
+
+.news-detail-header {
+  border-bottom: 1px solid var(--news-line);
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.4rem;
+}
+
+#news-detail .news-detail-title {
+  color: var(--news-blue-deep);
+  font-size: 2rem;
+  font-weight: 650;
+  line-height: 1.4;
+  margin: 0 0 0.9rem;
+}
+
+.news-detail-meta {
+  color: var(--news-muted);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.88rem;
+  gap: 0.45rem 1.2rem;
+  line-height: 1.6;
+}
+
+.news-detail-lead {
+  color: #3f4e56;
+  font-size: 1.03rem;
+  line-height: 1.85;
+  margin: 0 0 1.6rem;
+}
+
+.news-topic {
+  margin: 1.4rem 0 1.7rem;
+  padding: 0;
+}
+
+.news-topic-label {
+  color: var(--news-blue);
+  display: inline;
+  font-size: 0.9rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  margin-right: 0.35rem;
+  text-transform: none;
+}
+
+.news-topic p {
+  color: var(--news-text);
+  display: inline;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.news-detail-body {
+  color: #46545c;
+  line-height: 1.85;
+}
+
+#news-detail .news-detail-body h2 {
+  color: var(--news-text);
+  font-size: 1.2rem;
+  font-weight: 650;
+  margin: 1.8rem 0 0.7rem;
+}
+
+.news-detail-body p {
+  margin: 0 0 0.9rem;
+}
+
+.news-detail-nav {
+  border-top: 1px solid var(--news-line);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1.1rem;
+}
+
+.news-detail-nav a {
+  font-size: 0.86rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  #academic-news .news-page-title,
+  #news-detail .news-detail-title {
+    font-size: 1.65rem;
+  }
+
+  .news-entry-link { padding: 1.15rem 0.1rem; }
+}
+
+@media screen and (max-width: 430px) {
+  .news-detail-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
