@@ -31,7 +31,7 @@
         const labels = {
             '/research/': '研究方向',
             '/news/': '学术动态',
-            '/publications/': '论文发表',
+            '/publications/': '学术成果',
             '/files/Tianshu.Chen_CV.pdf': '简历'
         };
         navbar.querySelectorAll('.navbar-start .navbar-item').forEach(link => {

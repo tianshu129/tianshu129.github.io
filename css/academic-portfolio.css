@@ -1,0 +1,319 @@
+#academic-portfolio {
+  --portfolio-blue: #396c90;
+  --portfolio-blue-dark: #214f6f;
+  --portfolio-ink: #25333d;
+  --portfolio-muted: #6c7a84;
+  --portfolio-line: #d9e1e6;
+  --portfolio-soft: #f4f7f9;
+  color: var(--portfolio-ink);
+}
+
+#academic-portfolio,
+#academic-portfolio *,
+#academic-portfolio *::before,
+#academic-portfolio *::after {
+  box-sizing: border-box;
+}
+
+#academic-portfolio a {
+  color: var(--portfolio-blue);
+}
+
+#academic-portfolio .portfolio-page-header {
+  margin: 0 0 1.65rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+#academic-portfolio .portfolio-page-header h1 {
+  margin: 0;
+  color: var(--portfolio-ink);
+  font-size: 2rem;
+  font-weight: 650;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+
+#academic-portfolio .portfolio-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(220px, 0.8fr);
+  gap: 1.1rem;
+  margin: 0.3rem 0 1.15rem;
+}
+
+#academic-portfolio .portfolio-metrics,
+#academic-portfolio .portfolio-profiles {
+  border: 1px solid var(--portfolio-line);
+  border-radius: 8px;
+  background: var(--portfolio-soft);
+  padding: 1.25rem 1.35rem;
+}
+
+#academic-portfolio .portfolio-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+}
+
+#academic-portfolio .portfolio-metric {
+  padding: 0 1.15rem;
+  border-left: 1px solid var(--portfolio-line);
+}
+
+#academic-portfolio .portfolio-metric:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+#academic-portfolio .portfolio-metric-value {
+  display: block;
+  color: var(--portfolio-blue-dark);
+  font-size: 1.75rem;
+  font-weight: 650;
+  line-height: 1.05;
+}
+
+#academic-portfolio .portfolio-metric-label,
+#academic-portfolio .portfolio-metric-note {
+  display: block;
+  color: var(--portfolio-muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+#academic-portfolio .portfolio-metric-label {
+  margin-top: 0.42rem;
+  color: var(--portfolio-ink);
+  font-weight: 600;
+}
+
+#academic-portfolio .portfolio-profiles-title {
+  margin: 0 0 0.7rem;
+  color: var(--portfolio-ink);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#academic-portfolio .portfolio-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+}
+
+#academic-portfolio .portfolio-profile-links a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#academic-portfolio .portfolio-profile-links a:hover {
+  text-decoration: underline;
+}
+
+#academic-portfolio .portfolio-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--portfolio-line);
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+#academic-portfolio .portfolio-jump a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.28rem 0.78rem;
+  border-radius: 999px;
+  background: #eaf1f5;
+  color: var(--portfolio-blue-dark);
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#academic-portfolio .portfolio-jump a:hover {
+  background: #dce9f0;
+}
+
+#academic-portfolio .portfolio-section {
+  margin-top: 3.2rem;
+  scroll-margin-top: 5.5rem;
+}
+
+#academic-portfolio .portfolio-section-heading {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 0.85rem;
+  margin-bottom: 1.35rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 2px solid var(--portfolio-blue);
+}
+
+#academic-portfolio .portfolio-section-number {
+  color: #9aabb6;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+#academic-portfolio .portfolio-section-heading h2 {
+  margin: 0;
+  color: var(--portfolio-blue-dark);
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+#academic-portfolio .portfolio-section-count {
+  color: var(--portfolio-muted);
+  font-size: 0.8rem;
+}
+
+#academic-portfolio .publication-year {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+#academic-portfolio .publication-year h3 {
+  margin: 0;
+  color: var(--portfolio-blue-dark);
+  font-size: 1.1rem;
+}
+
+#academic-portfolio .publication-year ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+#academic-portfolio .publication-year li {
+  margin: 0 0 0.95rem;
+  padding-left: 0.15rem;
+  line-height: 1.68;
+}
+
+#academic-portfolio .publication-year li:last-child {
+  margin-bottom: 0;
+}
+
+#academic-portfolio .record-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+#academic-portfolio .record-card {
+  display: grid;
+  grid-template-columns: 8.4rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1.2rem 1.25rem;
+  border: 1px solid var(--portfolio-line);
+  border-left: 4px solid #7396ad;
+  border-radius: 7px;
+  background: #fff;
+}
+
+#academic-portfolio .record-date {
+  color: var(--portfolio-blue-dark);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+#academic-portfolio .record-body h3 {
+  margin: 0 0 0.48rem;
+  color: var(--portfolio-ink);
+  font-size: 1.04rem;
+  line-height: 1.48;
+}
+
+#academic-portfolio .record-body p {
+  margin: 0.22rem 0 0;
+  color: var(--portfolio-muted);
+  font-size: 0.9rem;
+  line-height: 1.62;
+}
+
+#academic-portfolio .record-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  margin-top: 0.72rem;
+}
+
+#academic-portfolio .record-tag {
+  display: inline-flex;
+  padding: 0.18rem 0.5rem;
+  border-radius: 3px;
+  background: #eaf1f5;
+  color: var(--portfolio-blue-dark);
+  font-size: 0.76rem;
+  font-weight: 650;
+}
+
+#academic-portfolio .patent-list .record-card {
+  border-left-color: #8b9ea9;
+}
+
+#academic-portfolio .honor-list .record-card {
+  border-left-color: #b08a55;
+}
+
+#academic-portfolio .honor-list .record-tag {
+  background: #f3ece2;
+  color: #795b32;
+}
+
+#academic-portfolio .service-list .record-card {
+  border-left-color: #6f8f84;
+}
+
+#academic-portfolio .service-list .record-tag {
+  background: #e8f0ed;
+  color: #41685b;
+}
+
+@media screen and (max-width: 768px) {
+  #academic-portfolio .portfolio-overview {
+    grid-template-columns: 1fr;
+  }
+
+  #academic-portfolio .portfolio-section-heading {
+    grid-template-columns: 2.35rem minmax(0, 1fr);
+  }
+
+  #academic-portfolio .portfolio-section-count {
+    display: none;
+  }
+
+  #academic-portfolio .record-card {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #academic-portfolio .portfolio-metrics {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  #academic-portfolio .portfolio-metric {
+    padding: 0.85rem 0 0;
+    border-top: 1px solid var(--portfolio-line);
+    border-left: 0;
+  }
+
+  #academic-portfolio .portfolio-metric:first-child {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  #academic-portfolio .publication-year {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+}
