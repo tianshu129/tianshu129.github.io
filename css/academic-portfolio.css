@@ -25,6 +25,15 @@
   border-bottom: 1px solid var(--portfolio-line);
 }
 
+#academic-portfolio .portfolio-kicker {
+  margin: 0 0 0.55rem;
+  color: var(--portfolio-blue);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
 #academic-portfolio .portfolio-page-header h1 {
   margin: 0;
   color: var(--portfolio-ink);
@@ -109,6 +118,13 @@
 
 #academic-portfolio .portfolio-profile-links a:hover {
   text-decoration: underline;
+}
+
+#academic-portfolio .portfolio-data-date {
+  margin: -0.55rem 0 1rem;
+  color: var(--portfolio-muted);
+  font-size: 0.76rem;
+  text-align: right;
 }
 
 #academic-portfolio .portfolio-jump {
